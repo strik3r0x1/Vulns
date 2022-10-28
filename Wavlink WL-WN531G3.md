@@ -1,6 +1,6 @@
 # Access Control Issue
 
-WAVLINK Quantum D4G (WL-WN531G3) running firmware versions (M31G3.V5030.201204, M31G3.V5030.200325) have access control issue which lead unauthenticated attackers to download configuration data and log files and obtain admin user&password
+WAVLINK Quantum D4G (WL-WN531G3) running firmware versions (M31G3.V5030.201204, M31G3.V5030.200325) have access control issue which lead unauthenticated attackers to download configuration data and log files and obtain admin credentails
 
 ## POC
 
