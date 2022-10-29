@@ -26,3 +26,4 @@ When someone opens this html file, or if attacker add it into his website, XSS w
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/94288990/198833923-86f3cd74-e7f6-45b2-bb82-41ac4d476e09.png)
