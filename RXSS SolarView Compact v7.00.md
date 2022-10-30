@@ -1,5 +1,5 @@
 # Description:
-Cross-site Scripting (XSS) - Reflected in SolarView Compact v7.00 Via crafted POST Request
+Cross-site Scripting (XSS) - Reflected in SolarView Compact v7.00 Via crafted POST Request via /Solar_LED.php endpoint 
 
 ## POC:
 
