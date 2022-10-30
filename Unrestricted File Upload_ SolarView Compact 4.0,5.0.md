@@ -24,6 +24,7 @@ shell.php
 
 4. send the request and navigate to /images/background/shell.php?cmd=ls
 
-![image](https://user-images.githubusercontent.com/94288990/198075408-ed01502e-90f5-45df-b955-551ac8bffb79.png)
+
+![image](https://user-images.githubusercontent.com/94288990/198857461-19af0c62-2971-4053-aca2-7bea71175040.png)
 
 
