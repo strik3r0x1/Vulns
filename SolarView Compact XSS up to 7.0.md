@@ -1,7 +1,7 @@
-# Cross-site Scripting (XSS) in all SolarView Compact *: v7.0
+# Cross-site Scripting (XSS) in all SolarView Compact v7.00
 
 ## Description
-Cross-site Scripting (XSS) - Reflected in SolarView Compact prior to 7.0 via crafted POST request to /network_test.php
+Cross-site Scripting (XSS) - Reflected in SolarView Compact v7.0 via crafted POST request to /network_test.php
 
 ## POC
 
