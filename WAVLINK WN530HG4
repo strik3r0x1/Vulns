@@ -1,0 +1,7 @@
+# Summary:
+WAVLINK WN530HG4 AC1200 High Power Dual Band Gigabit Router (WL-WN530HG4) devices running firmware version (M30HG4.V5030.201217) have an access control issue, allowing unauthenticated attackers to download configuration data and log files and obtain admin credentials.
+
+# Details:
+When an unauthenticated attacker requests /cgi-bin/ExportLogs.sh this will lead to downloading all configurations and Admin Credentials and accessing the Device Dashboard
+
+![Drag Racing](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNXCJWNoU0PexwJ6yBpmG%2Fuploads%2FWBbBRpghb8E5OUvJAZsU%2Fcve1.png?alt=media&token=8d1d548c-465d-43a7-a10a-d00af0c2d6b9)
