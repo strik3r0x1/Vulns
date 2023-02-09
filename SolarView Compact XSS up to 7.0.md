@@ -1,8 +1,8 @@
-# Cross-site Scripting (XSS) in all SolarView Compact v7.00
+# Cross-site Scripting (XSS) in all SolarView Compact prior to v7.00
 
 ## Description
 CVE-2022-44355
-Cross-site Scripting (XSS) - Reflected in SolarView Compact v7.0 via crafted POST request to /network_test.php
+Cross-site Scripting (XSS) - Reflected in all SolarView Compact up to v7.0 via crafted POST request to /network_test.php
 
 ## POC
 
