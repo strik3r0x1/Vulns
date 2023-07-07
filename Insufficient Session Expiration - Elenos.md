@@ -21,6 +21,7 @@ Notice that the options for Temperature Unit config are:
 
 * C
 * F
+
 And options for Format Number are:
 
 * Extended
