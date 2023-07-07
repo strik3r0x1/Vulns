@@ -2,9 +2,9 @@
 
 insufficient session expiration allowing users to change transmitter configuration and data even after logging out from their account affecting Elenos ETG150 FM transmitter running on version 3.12
 
-## Discoverer: Eslam Kamal (Strik3r) | Cypro AB
-## Vendor of Product: Elenos
-## Affected Product: ETG150 FM transmitter - 3.12
+### Discoverer: Eslam Kamal (Strik3r) | Cypro AB
+### Vendor of Product: Elenos
+### Affected Product: ETG150 FM transmitter - 3.12
 
 
 ## Introduction
