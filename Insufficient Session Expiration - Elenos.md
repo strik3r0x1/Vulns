@@ -19,12 +19,12 @@ in the previous image, we noticed that the Temperature Unit is set to "C" and th
 
 Notice that the options for Temperature Unit config are:
 
-C
-F
+* C
+* F
 And options for Format Number are:
 
-Extended
-K
+* Extended
+* K
 After intercepting the request, logout from the account:
 
 ![image](https://github.com/strik3r0x1/Vulns/assets/94288990/909016ad-3949-4b96-8398-0b69fe2651e4)
