@@ -26,6 +26,7 @@ And options for Format Number are:
 
 * Extended
 * K
+
 After intercepting the request, logout from the account:
 
 ![image](https://github.com/strik3r0x1/Vulns/assets/94288990/909016ad-3949-4b96-8398-0b69fe2651e4)
