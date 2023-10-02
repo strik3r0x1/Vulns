@@ -2,7 +2,7 @@
 Improper access control leads to access and edit Traps configurations affecting Elenos ETG150 FM transmitter running on version 3.12
 
 
-##### Discoverer: Eslam Kamal (Strik3r) | Cypro AB
+##### Discoverer: Eslam Kamal (Strik3r)
 ##### Vendor of Product: Elenos
 ##### Affected Product: ETG150 FM transmitter - 3.12
 
