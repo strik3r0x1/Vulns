@@ -6,11 +6,22 @@ The stored XSS vulnerability allows attackers to inject malicious JavaScript cod
 ##### Vendor of Product: GARO
 ##### Affected Product: GLBDCMB-T274WO-A
 
+## Poc video
+https://drive.google.com/file/d/1spsElvU8rgCs4gUxc662SCBjTI9VAqth/view?usp=sharing
 
 ## POC
 
 1.	Navigate to http://<host>/serialweb/index.jsp#settings and you will see the device configuration without any authentication 
 2.	Click on “Software Updates / Identification” and select any wallbox and click on “Edit”
 
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/ffda9142-7e47-46bd-8f64-009acbbeb118)
 
+3.	Now, fill in any data in the “Reference” textbox and click on update. And capture this HTTP request with any proxy such as Burpsuit
+4.	Modify the “Reference” json value to any XSS payload and send the request 
+
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/fcd8e415-b33e-458e-8193-e9d023b221a3)
+
+5.	Now, if you tried to back to device portal you will notice the “XSS” popup appeared
+
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/e82fe461-9d84-4a6b-b058-629973988776)
 
