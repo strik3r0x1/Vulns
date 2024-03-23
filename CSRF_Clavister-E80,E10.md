@@ -1,5 +1,5 @@
 
-### ===== CSRF at Clavister E80,E10 Firewall lead to Reset/Reboot Filrewall =====
+### ===== CSRF at Clavister E80,E10 Firewall lead to Reset/Reboot Firewall =====
 ##### Discoverer: [Eslam Kamal (Strik3r)](https://www.linkedin.com/in/eslam-kamal/)
 ##### Vendor of Product: Clavister
 ##### Affected Product: Clavister E80,E10 - EagleSeries
