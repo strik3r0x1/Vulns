@@ -1,5 +1,5 @@
 # ========== Stored-XSS at ZTC GK420d printer ==========
-##### Discoverer: Eslam Kamal (Strik3r)
+##### Discoverer: (Eslam Kamal (Strik3r))[https://www.linkedin.com/in/eslam-kamal/]
 ##### Vendor of Product: Zebra Technologies
 ##### Affected Product: ZTC GK420d
 
