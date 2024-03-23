@@ -8,7 +8,7 @@
 ## Description
 Reflected XSS chained with CSRF poses a threat to Clavister E80 Firewall-protected web applications. In this scenario, attackers inject malicious scripts into the application, which execute in users' browsers, potentially leading to unauthorized actions like data theft or manipulation. While the firewall provides network security, it may not safeguard against these specific web application vulnerabilities. Mitigation strategies include secure coding practices, such as input validation and output encoding, as well as implementing anti-CSRF tokens and conducting regular security assessments.
 
-
+<span style="color:blue">some *blue* text</span>
 
 ## POC
 Steps To Reproduce:
