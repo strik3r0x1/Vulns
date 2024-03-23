@@ -1,4 +1,4 @@
-# ======= Reflected-XSS chained with CSRF at Clavister E80 Firewall =======
+# ===== Reflected-XSS chained with CSRF at Clavister E80 Firewall =====
 ##### Discoverer: [Eslam Kamal (Strik3r)](https://www.linkedin.com/in/eslam-kamal/)
 ##### Vendor of Product: Clavister
 ##### Affected Product: Clavister E80 - EagleSeries
