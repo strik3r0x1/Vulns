@@ -16,25 +16,25 @@ Steps To Reproduce:
 
 1. When trying to add any JavaScript code inside any input field, the Firewall will refuse it due to the validation of the values characters on the fron-end.
 
-![image](https://github.com/strik3r0x1/Vulns/assets/94288990/7fd67412-fb72-450a-a71f-59dac9e20dd9)
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/25b7510e-7301-4c75-852e-c93b1a999ce8)
 
 So, to trigger cross-site script code as shown below, we intercepted the Misc Settings Configuration HTTP POST request and changed the values of 8 parameters:
 "WatchdogTimerTime","BufFloodRebootTime","MaxPipeUsers","AVCache Lifetime","HTTPipeliningMaxReq","Reassembly MaxConnections","Reassembly MaxProcessingMem" and "ScrSaveTime".
 
-![image](https://github.com/strik3r0x1/Vulns/assets/94288990/6747eec7-7cc1-4610-8fa2-9af5899e9996)
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/25ee485d-d36a-459c-aa60-015a44c15099)
 
 2. Then I generated an exploitation HTML form to see if the cookies would be sent to the back-end to be destroyed from the HTML form or not. After generating the HTML form, I submitted the Malformed POST request using the form and the cookies were sent through the request even if it was from outside the application.
 3. As shown below, I generated a form that simulates the typical request for the **"Misc. Settings Configuration"** to use it in our proof of concept.
 
-![image](https://github.com/strik3r0x1/Vulns/assets/94288990/979efbbb-339a-4051-9db5-f0d9ac727b40)
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/71189d62-6af2-422f-a636-3fb581ac5592)
 
 4. I discovered that the application accepts the request and the cookies have been sent through the request as seen below in the referer header as soon as we accessed the malicious link to simulate a real victim.
 
-![image](https://github.com/strik3r0x1/Vulns/assets/94288990/ce23cecc-7d79-4efd-9d09-de019bd6b35e)
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/0efcdc29-0f02-448d-a650-1d760ba13294)
 
 5. As you can see, the JavaScript code was successfully performed at MiscSettings after being triggered by the payload from the back-end, as seen below:
 
-![image](https://github.com/strik3r0x1/Vulns/assets/94288990/d5c499bc-5d6c-4fcd-b590-c449a49cbd8f)
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/cb5d8dbc-e538-47e2-a71c-20f062089bfa)
 
 Because we are able to inject Javascript code, we can hijack the user's session with this attack, which allows an attacker to take over a user's account and get full control of that user in some cases.
 
