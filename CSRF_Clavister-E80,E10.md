@@ -4,7 +4,7 @@
 ##### Vendor of Product: Clavister
 ##### Affected Product: Clavister E80,E10 - EagleSeries
 -----------------------------------
-![image](https://github.com/strik3r0x1/Vulns/assets/94288990/338e9f93-aff1-426f-818e-f9c7bd32e394)
+![image](https://github.com/strik3r0x1/Vulns/assets/94288990/31abca41-7b85-4e40-aeaa-d5aace4ff01b)
 
 ## Description
 
