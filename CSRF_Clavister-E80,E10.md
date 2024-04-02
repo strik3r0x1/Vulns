@@ -1,5 +1,5 @@
 
-### ======= CSRF at Clavister E80,E10 lead to Reset/Reboot Firewall =======
+### ===== CSRF at Clavister E80,E10 lead to Reset/Reboot Firewall =====
 ##### Discoverer: [Eslam Kamal (Strik3r)](https://www.linkedin.com/in/eslam-kamal/)
 ##### Vendor of Product: Clavister
 ##### Affected Product: Clavister E80,E10 - EagleSeries
@@ -23,7 +23,7 @@ As example we created a form to simulate a typical HTTP request for the **/?rest
 
 ![image](https://github.com/strik3r0x1/Vulns/assets/94288990/73948b13-498f-4d61-8b8d-4927ab6ef2dc)
 
-Because the application does not validate the request, if any authenticated user clicks on that button, the application accepts the request and the user cookies are sent through the request to the **"/htdocs/pages/base/sys reset.lsp"** endpoint, causing the switch to reboot.
+Because the application does not validate the request, if any authenticated user clicks on that button, the application accepts the request and the user cookies are sent through the request to the **"/htdocs/pages/base/sys reset.lsp"** endpoint, causing the Firewall to reboot.
 
 The same method will be used in order to create a CSRF POC in order to Reset all Firewall configurations at **/?reset=factoryreset&Page=ResetAction** endpoint.
 
