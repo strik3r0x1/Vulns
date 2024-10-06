@@ -2,7 +2,7 @@
 Lack of resources and rate limiting on Elenos Login leads to Brute-Force login credentials
 
 
-##### Discoverer: Eslam Kamal (Strik3r) | Cypro AB
+##### Discoverer: Eslam Kamal (Strik3r)
 ##### Vendor of Product: Elenos
 ##### Affected Product: ETG150 FM transmitter - 3.12
 
