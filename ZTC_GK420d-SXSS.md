@@ -2,6 +2,7 @@
 ##### Discoverer: [Eslam Kamal (Strik3r)](https://www.linkedin.com/in/eslam-kamal/)
 ##### Vendor of Product: Zebra Technologies
 ##### Affected Product: ZTC GK420d
+##### CVE: CVE-2024-3125
 
 ## Description
 Stored Cross-Site Scripting (XSS) vulnerability has been identified in the web portal of ZTC GK420d printers, manufactured by Zebra Technologies. By injecting malicious JavaScript code into the web interface, attackers can manipulate the printer's functionality, compromise sensitive data, or launch further attacks against connected devices or networks. This could include actions such as redirecting users to malicious websites, stealing session cookies, or capturing login credentials entered into the compromised portal.
